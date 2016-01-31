@@ -18,7 +18,7 @@ REST Web Services (Facebook API)
 
 
 
-MapMe is a web application built on Java EE and JSF using MVC technology. The application lets you type an origin location, a destination location, and simply returns the distance. I calculated it using the haversine formula, and Google map's API. I made this so that I could play with the different kinds of technologies that are available and to broaden my skillset.
+MapMe is a web application built on Java EE and JSF using MVC technology. The application lets you type an origin location, a destination location, and then it simply returns the distance. I calculated the distance using the haversine formula, and Google map's API. I made this so that I could play with the different kinds of technologies that are available and to broaden my skillset.  
 I play with different kinds of technologies and see the output with a web application to see how I can apply this in a real life application. There are multiple versions of this. This particular version of my application plays with concurrency, concurrent programming, synchronization, multithreading programming, and more. You can also incorporate facebook features onto this application, please lok at SimplePractice.java; also, here is a good video describing the simplicity of adding facebook application onto this application: [Facebook features in the web site](https://www.youtube.com/watch?v=oxSKLgsSbsU). I hope you enjoy this as much as I have.  
 
 
