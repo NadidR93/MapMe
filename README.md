@@ -1,41 +1,44 @@
 # MapMe
 
+<<<<<<< HEAD
 MapeMe is a web application built on Java EE and JSF using MVC technology. What the application does is that you type in a origin location, and a destination location, and it simply returns the distance between the two. I calculated the distance using the haversine formula, and also using Google map's API to calculate distance between two points. I made this application so that I could play with the different kinds of technologies that are available. 
+=======
+Requirements:  
+Java 1.8  
+Glassfish 4.1.1  
+Eclipse with Java EE support  
+>>>>>>> 5a05668cb2666f6073a86a2a518e573cf25e66b2
 
-Requirements: 
-Java 1.8
-Glassfish 4.1.1
-Eclipse
-
-Technologies involved in my application:
-MVC framework/technologies
-Java Server Face 2.0+ (JSF2.0+)
-Java EE
-Javascript
-XHTML/HTML
-JSP
-Google Maps API
-Facebook API
-REST Web Services (Facebook API)
-
-
-
-A web application that runs with google api and facebook rest api provided here. 
-
-There are multiple versions of my web app. I like to play with different kinds of technologies and see the output with a web application to see how I can apply this in a real life application. I hope you enjoy this as much as I have. 
+Technologies involved in my application:  
+MVC framework/technologies  
+Java Server Face 2.0+ (JSF2.0+)  
+Java EE  
+Javascript  
+XHTML/HTML  
+JSP  
+Google Maps API  
+Facebook API  
+REST Web Services (Facebook API)  
 
 
-This version of my application plays with concurrency, concurrent programming, synchronization, multithreading programming, and more. 
 
-You can also incorporate facebook features onto this application, please lok at SimplePractice.java; also, here is a good video describing the simplicity of adding facebook application onto this application: [Facebook features in the web site](https://www.youtube.com/watch?v=oxSKLgsSbsU)
+MapMe is a web application built on Java EE and JSF using MVC technology. The application lets you type an origin location, a destination location, and then it simply returns the distance. I calculated the distance using the haversine formula, and Google map's API. I made this so that I could play with the different kinds of technologies that are available and to broaden my skillset.  
+  
 
-I will also create another version for Ruby on Rails will let you know when I add it onto github.
+There are multiple versions of this. This particular version of my application plays with concurrency, concurrent programming, synchronization, multithreading programming, and more. You can also incorporate facebook features onto this application, please lok at SimplePractice.java; also, here is a good video describing how to incorportae Facebook's Graph API onto this application: [Facebook features in the web site](https://www.youtube.com/watch?v=oxSKLgsSbsU).  
 
-Directions:
-1.) Import project onto eclipse. Go to Java Build Path, add all the .jar files inside MapMe/WebContent/WEB-INF/lib
+I hope you enjoy this as much as I have.  
 
-2.) Start Glassfish server
 
-3.) Run MapWorld.jsp on server
 
-4.) Enjoy, and thank you
+Application demo:  
+
+![alt tag](https://github.com/o3dwade/MapMe/blob/master/Demo1.png?raw=true)  
+Directions:  
+1.) Import project onto eclipse. Go to Java Build Path, add all the .jar files inside MapMe/WebContent/WEB-INF/lib  
+
+2.) Start Glassfish server  
+
+3.) Run MapWorld.jsp on server  
+
+4.) Enjoy  
