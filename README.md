@@ -1,13 +1,11 @@
 # MapMe
 
-<<<<<<< HEAD
-MapeMe is a web application built on Java EE and JSF using MVC technology. What the application does is that you type in a origin location, and a destination location, and it simply returns the distance between the two. I calculated the distance using the haversine formula, and also using Google map's API to calculate distance between two points. I made this application so that I could play with the different kinds of technologies that are available. 
-=======
+MapMe is a web application built on Java EE and JSF using MVC technology. What the application does is that you type in a origin location, and a destination location, and it simply returns the distance between the two. I calculated the distance using the haversine formula, and also using Google map's API to calculate distance between two points. I made this application so that I could play with the different kinds of technologies that are available. 
+
 Requirements:  
 Java 1.8  
 Glassfish 4.1.1  
 Eclipse with Java EE support  
->>>>>>> 5a05668cb2666f6073a86a2a518e573cf25e66b2
 
 Technologies involved in my application:  
 MVC framework/technologies  
@@ -39,7 +37,7 @@ Application demo:
 Directions:  
 1.) Import project onto eclipse. Go to Java Build Path, add all the .jar files inside MapMe/WebContent/WEB-INF/lib  
 
-2.) Start Glassfish server  
+2.) Start Glassfish 4 server  
 
 3.) Run MapWorld.jsp on server  
 
