@@ -33,7 +33,9 @@ I hope you enjoy this as much as I have.
 
 Application demo:  
 
-![alt tag](https://github.com/o3dwade/MapMe/blob/master/Demo1.png?raw=true)  
+![alt tag](https://github.com/o3dwade/MapMe/blob/master/Picture1.png?raw=true)  
+![alt tag](https://github.com/o3dwade/MapMe/blob/master/Picture2.png?raw=true)  
+![alt tag](https://github.com/o3dwade/MapMe/blob/master/Picture3.png?raw=true)  
 Directions:  
 1.) Import project onto eclipse. Go to Java Build Path, add all the .jar files inside MapMe/WebContent/WEB-INF/lib  
 
