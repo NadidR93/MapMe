@@ -1,5 +1,6 @@
 # MapMe
 
+MapeMe is a web application built on Java EE and JSF using MVC technology. What the application does is that you type in a origin location, and a destination location, and it simply returns the distance between the two. I calculated the distance using the haversine formula, and also using Google map's API to calculate distance between two points. I made this application so that I could play with the different kinds of technologies that are available. 
 
 Requirements: 
 Java 1.8

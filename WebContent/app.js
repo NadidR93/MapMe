@@ -56,12 +56,12 @@ mygc.geocode({'address' : address1}, function(results, status){
         console.log("lat 1: " + latOrigem);
         console.log("long 1: "+ longOrigem);
         
-        document.getElementById("latO").value=latOrigem;
-        document.getElementById("lngO").value=longOrigem;
-        document.getElementById("latD").value=latDestino;
-        document.getElementById("lngD").value=longDestino;
-        
-        
+//        document.getElementById("latO").value=latOrigem;
+//        document.getElementById("lngO").value=longOrigem;
+//        document.getElementById("latD").value=latDestino;
+//        document.getElementById("lngD").value=longDestino;
+//        
+//        
 //        var line = new google.maps.Polyline({
 //            path: [new google.maps.LatLng(37.4419, -122.1419), new google.maps.LatLng(37.4519, -122.1519)],
 //            strokeColor: "#FF0000",
@@ -72,7 +72,7 @@ mygc.geocode({'address' : address1}, function(results, status){
 
         alert("Google Maps: "+google.maps.geometry.spherical.computeDistanceBetween (locationDestino, locationOrigem)+"Meters");
         //line.setMap(map);
-        //alert("Haversine: "+ getDistance(locationDestino, locationOrigem));
+        alert("Haversine: "+ getDistance(locationDestino, locationOrigem));
     });
 });
 }

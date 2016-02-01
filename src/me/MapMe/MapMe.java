@@ -45,6 +45,14 @@ public class MapMe{
         //request.getRequestDispatcher("/NewWorld.jsp").forward(request, response);
 	}*/
 	
+	public double getDistance() {
+		return distance;
+	}
+	
+	public void setDistance(double distance) {
+		this.distance = distance;
+	}
+	
 	public double getLatOrig(){
 		return latOrig;
 	}
@@ -75,7 +83,13 @@ public class MapMe{
 	}
 	
 	public String getMyLoc(){
+		System.out.println("My Loc is: "+myLoc);
 		return myLoc;
+	}
+	
+	public void getMyLoc(String loc){
+		System.out.println("My Loc is: "+myLoc);
+		myLoc=loc;
 	}
 	
 	public int getCountVal(){
@@ -104,12 +118,14 @@ public class MapMe{
 			System.out.println("new thread started:"+workers[i].id);
 			
 			workers[i].start();
+			distance=workers[i].getDistance();
 			
 		}
 		
 		try {
 			for (Worker w: workers) {
 				w.join();
+				distance=w.getDistance();
 				System.out.println("Thread " + w.id+": "+ w.getDistance());
 				
 			}

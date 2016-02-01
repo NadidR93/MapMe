@@ -20,5 +20,10 @@
 		<managed-bean-class>me.MapMe.LocationValues</managed-bean-class>
 		<managed-bean-scope>session</managed-bean-scope>
 	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>worker</managed-bean-name>
+		<managed-bean-class>me.MapMe.Worker</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
 
 </faces-config>

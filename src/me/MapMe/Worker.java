@@ -1,12 +1,11 @@
 package me.MapMe;
 
-
 public class Worker extends Thread{
 	
 	LocationValues loc;
 	int id;
 	public final double R = 6372.8; // In kilometers
-	public double distance=0;
+	private double distance=0;
 	
 	public Worker(int id, LocationValues loc) {
 		this.id = id;
@@ -17,7 +16,7 @@ public class Worker extends Thread{
 		distance=haversine(loc.getLatOrig(), loc.getLatOrig(), loc.getLngDest(), loc.getLngDest());
 		System.out.println("Distance is: "+distance);
 	}
-	
+
     public double haversine(double lat1, double lon1, double lat2, double lon2) {
         double dLat = Math.toRadians(lat2 - lat1);
         double dLon = Math.toRadians(lon2 - lon1);
@@ -33,6 +32,4 @@ public class Worker extends Thread{
 	public double getDistance() {
 		return distance;
 	}
-	
-
 }

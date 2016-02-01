@@ -31,7 +31,10 @@
 <body>
 <f:view>
 <div class="contentcontainer med left" style="float: right">
+	  <h:form>
       Origin<br>
+      <!--<h:inputText  value="#{mapMe.myLoc}"></h:inputText><br>
+      <h:inputText  value="#{mapMe.other}"></h:inputText><br>-->
       <h:inputText  value="#{mapMe.latOrig}"></h:inputText>
   	  <br>
   	  <h:inputText  value="#{mapMe.lngOrig}"></h:inputText>
@@ -41,19 +44,17 @@
    	  <br>
    	  <h:inputText  value="#{mapMe.lngDest}"></h:inputText>
    	  <br>
-   	  <br>
-   	  <h:inputText  value="#{mapMe.lngDest}"></h:inputText>
-   	  <br>
+
    	  <br>
    	  <h:outputText  value="#{mapMe.lngDest}"></h:outputText>
    	  <br>
    	  
-      <h:form>
+      
       <h:commandButton action ="#{mapMe.incCountVal}" value="Add Location"></h:commandButton>
       <h:commandButton action ="#{mapMe.haversineCalc}" value="Get Distance"></h:commandButton>
       </h:form> 					
 
-      <h3><h:outputText value="Count is #{mapMe.countVal}" /></h3> 
+      <h3><h:outputText value="Haversine distance is #{mapMe.distance}" /></h3> 
     </div>
     <div id="map-canvas"></div>
 </f:view>
