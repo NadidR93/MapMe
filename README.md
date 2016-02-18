@@ -1,4 +1,4 @@
-# MapMe
+# MapMe - ARCHIVED Version
 
 Requirements:  
 Java 1.8  
